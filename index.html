@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Data collection</title>
+</head>
+<body>
+    <section class="container">
+        <section class="form">
+            <form action="">
+                <div>
+                    <label for="name">*First Name :</label><br>
+                    <input  class="fname" type="text" name="fname" id="fname" placeholder="First name (Jennifer)" value="" required>
+                </div>
+                <div>
+                    <label for="name">*Last Name :</label><br>
+                    <input class="lname" type="text" name="fname" id="lname" placeholder="Last name (Aniston)" value="" required>
+                </div>
+                <div>
+                    <label for="name">*Address :</label><br>
+                    <textarea  class="address" name="" id="address" cols="30" rows="3" placeholder="enter adderss:" value="" required></textarea>
+                </div>
+                <div>
+                    <label for="name">*Pincode :</label><br>
+                   <input class="pincode" type="number" name="" id="pincode" placeholder="pincode" value="" required>
+                </div>
+                <div>
+                    <label for="name">*Select gender :</label><br>
+                   <input class="male" type="radio" name="gander" id="male" value="Male">Male
+                   <input class="female" type="radio" name="gander" id="female" value="Female" checked>Female
+                   <input  class="other"type="radio" name="gander" id="other" value="other">Other
+                </div>
+                <div>
+                    <label for="food">*Select food items(at least 2)</label><br>
+                    <input class="food" type="checkbox" name="" id="" value="Macron">
+                    <label for="Macron">Macron</label>
+                    <input class="food" type="checkbox" name="" id="" value="Brownie" checked>
+                    <label for="Brownie">Brownie</label>
+                    <input class="food" type="checkbox" name="" id="" value="Fruit Smoothie">
+                    <label for="Fruit Smoothie">Fruit Smoothie</label>
+                    <input class="food" type="checkbox" name="" id="" value="Sweet corn" checked>
+                    <label for="Sweet corn">Sweet corn</label>
+                    <input class="food" type="checkbox" name="" id="" value="Choco's">
+                    <label for="Choco's">Choco's</label>
+                </div>
+                <div>
+                    <button class=" submit" onclick="onSubmit()">Sumit</button>
+        
+                </div>
+            </form>
+            
+    
+        </section>
+        <section class="tableS">
+            <table class="table">
+                <thead>
+                    <tr>
+                       <th>Firsr Name</th>
+                       <th>Last Name</th>
+                       <th>Address</th>
+                       <th>Pincode</th>
+                       <th>Gender</th>
+                       <th>Food</th>
+                    </tr>
+                </thead>
+            </table>
+        </section>
+      
+    </section>
+     
+  <script src="script.js"></script>  
+</body>
+</html>

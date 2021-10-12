@@ -1,0 +1,65 @@
+body{
+    background-image:url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSlkoyKWX2QvXHqWmPfRK0OW1Ev_V7MrLxNtA&usqp=CAU");
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+    background-size:cover;
+    background-position: center;
+}
+.container{
+    display:flex;
+    flex-direction: row;
+    height: 100%;
+    width: 80%;
+    background-color: rgb(214, 218, 252);
+    align-content: center;
+    margin-top: 5%;
+    margin-left: 7%;
+    padding :20px
+}
+form{
+    margin-left:20px;
+}
+.fname,.lname,.address,.pincode{
+    width:60%
+}
+lable,button,div{
+    padding:10px
+}
+button{
+    align-content: center;
+    margin-left: 10%;
+    width: 30%;
+    border-radius: 10px;
+    color: white;
+    background-color: rgb(100, 73, 105);
+}
+button:hover{
+    background-color: rgb(64, 62, 80);
+}
+.tableS{
+    margin-left: 10%;
+}
+
+table,th,td{
+border:1px solid whitesmoke;
+border-radius: 5px;
+padding: auto;
+
+}
+th,td{
+    background-color:rgb(202, 200, 236);
+    text-align: center;
+    width:auto;
+    padding: 5px;
+}
+
+tbody>tr:nth-child(even){
+    background-color: rgb(252, 215, 215)
+}
+@media screen and (max-width:600px) {
+    .container{
+        display: flex;
+        flex-direction: column;
+    }
+}
